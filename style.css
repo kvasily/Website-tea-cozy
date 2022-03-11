@@ -1,0 +1,96 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: .9;
+    text-align: center;
+    background-color: black;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    height: auto;
+    max-width: auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 69px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    position: fixed;
+    top:   0px;
+    background-color: black;
+}
+
+nav .teaLogo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+ul {
+    padding-right: 20px !important;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+    
+a:hover {
+    opacity: .5;
+}
+
+a:active {
+    color: red;
+}
+
+.teaInJar {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+
+}
+
+.teaJarDiv {
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 95%;
+    background-color: black;
+    border: 1px solid red;
+    /* overflow: hidden; */
+}
+
+.divCeption {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid blue;
+    
+}
+
+
+
+/* .teaJarDiv h2, h4{
+    text-align: center;
+}
+
+.teaJarDiv h4 {
+    margin-bottom: 0px;
+} */
+
+/* 
+<h2>Our Mission</h2>
+      <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4> */
