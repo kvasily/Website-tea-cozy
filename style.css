@@ -19,11 +19,12 @@ nav {
     display: flex;
     align-items: center;
     height: 69px;
-    /* border: 1px solid red; */
     justify-content: space-between;
     position: fixed;
-    top:   0px;
+    top: 0px;
     background-color: black;
+    z-index: 1;
+    /* border: 1px solid red; */
 }
 
 nav .teaLogo {
@@ -54,43 +55,82 @@ a:active {
 }
 
 .teaInJar {
-    padding-top: 100px;
     width: 100%;
     height: auto;
+    /* padding-top: 100px; */
 
 }
 
 .teaJarDiv {
     position: relative;
     margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
-    justify-content: center;
     height: auto;
-    width: 95%;
-    background-color: black;
-    border: 1px solid red;
+    /* justify-content: center; */
+    /* width: 95%; */
+    /* background-color: black; */
+    /* border: 1px solid red; */
     /* overflow: hidden; */
 }
 
 .divCeption {
     position: absolute;
-    height: 100px;
+    height: 125px;
     width: 100%;
     background-color: black;
-    border: 1px solid blue;
+    align-self: center;
+    margin-bottom: 0px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* border: 1px solid blue; */
+    /* flex-direction: column; */
     
 }
 
-
-
-/* .teaJarDiv h2, h4{
-    text-align: center;
+.divCeption h4 {
+    margin: 0px;
 }
 
-.teaJarDiv h4 {
-    margin-bottom: 0px;
-} */
+.teaOfTheMonth {
+    /* display: flex; */
+    border: 1px solid red;
+    height: 50vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    align-self: center;
+    margin-top: 3vw;
+    
+    
+}
 
-/* 
-<h2>Our Mission</h2>
-      <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4> */
+.img1 {
+    width: 25%;
+    height: auto;
+}
+
+.img2 {
+    width: 25%;
+    height: auto;
+}
+
+.img3 {
+    width: 25%;
+    height: auto;
+}
+
+.img4 {
+    width: 25%;
+    height: auto;
+}
+
+.img5 {
+    width: 25%;
+    height: auto;
+}
+
+.displayImages {
+    width: 100%;
+    height: auto;
+}
